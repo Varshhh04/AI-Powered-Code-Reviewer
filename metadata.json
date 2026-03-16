@@ -1,0 +1,5 @@
+{
+  "name": "AI Powered Code Reviewer",
+  "description": "A comprehensive code analysis system featuring an Android frontend (Kotlin/Compose) and a Python FastAPI backend with AST-based analysis.",
+  "requestFramePermissions": []
+}
