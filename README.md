@@ -10,7 +10,6 @@ This project is a code analysis tool designed for students and developers. It pr
 - **Mobile-First Design**: A polished, responsive UI built with Jetpack Compose (Android) and React (Web).
 
 ## Folder Structure
-- `/android`: Full Android Studio project source code (Kotlin/Jetpack Compose).
 - `/backend`: Python FastAPI backend source code.
 - `/src`: Web-based simulation of the Android app (for demonstration).
 - `server.ts`: Express server that proxies requests to Gemini AI.
@@ -27,14 +26,8 @@ This project is a code analysis tool designed for students and developers. It pr
    ```bash
    python main.py
    ```
-   The API will be available at `http://localhost:8000`.
+   The API will be available at `http://localhost:3000`.
 
-### 2. Android Application
-1. Open Android Studio.
-2. Select "Open an Existing Project" and choose the `android` folder.
-3. Ensure you have the latest Kotlin and Compose plugins.
-4. Update the `BASE_URL` in the Retrofit configuration to point to your backend IP.
-5. Build and run on an emulator or physical device.
 
 ### 3. Web Preview (Live Demo)
 1. This environment runs a web-based version of the app.
